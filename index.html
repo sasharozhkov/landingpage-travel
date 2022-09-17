@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@400;500;700&display=swap');
+    </style>
+    <title>alexrozhkov</title>
+</head>
+
+<body>
+    <div class="pop-up">
+        <h3 class="heading-popup">Войдите в свою учетную запись</h3>
+        <div class="login-with-facebook sing-in">
+            <img src="assets/img/logo-facebook.svg" class="logo-signin">
+            Авторизоваться с помощью Фэйсбука
+        </div>
+        <div class="login-with-google sing-in">
+            <img src="assets/img/logo-google.svg" class="logo-signin">
+            Авторизоваться с помощью Гугла
+        </div>
+        <p class="or"><b>или</b></p>
+        <form class="register-form" action="">
+            <label for="email">Эл. почта
+            </label>
+            <input type="email" name="email" autocomplete="email" id="email">
+            <label for="password">Пароль
+            </label>
+            <input type="password" name="password" autocomplete="current-password" id="password">
+            <button type="button" class="sing-in-btn">Войти</button>
+        </form>
+        <a href="" class="forgot-pass">Забыли свой пароль?</a>
+        <div class="line-sepatator"></div>
+        <div>
+            <span class="register-ask">У вас нет аккаунта?</span>
+            <span class="register">Регистрация</span>
+        </div>
+    </div>
+    <div class="overlay">
+    </div>
+    <section class="container first">
+        <div class="gradient"></div>
+        <header id="top">
+            <div class="logo-block">
+                <a href="#top" class="logo"></a>
+                <span class="logo-label">Travel Portal</span>
+            </div>
+            <nav class="nav">
+                <div class="burger"><img src="assets/img/burger-menu.svg" alt="menu"></div>
+                <ul class="nav-menu">
+                    <li>
+                        <img src="assets/img/close-line.svg" alt="close" class="close">
+                    </li>
+                    <li class="nav-link"><a href="#how-it-work" class="nav-link">Как это работает</a></li>
+                    <li class="nav-link"><a href="#plan-trip" class="nav-link">Спланируйте поездку</a></li>
+                    <li class="nav-link"><a href="#popular-destinations" class="nav-link">Направления</a></li>
+                    <li class="nav-link"><a href="#travel-stories" class="nav-link">Истории путешествий</a></li>
+                    <li class="nav-link account"><a href="#account" class="mobile-nav nav-link account">Учетная
+                            запись</a></li>
+                    <li class="nav-link"><a href="#social-media" class="mobile-nav nav-link ">Социальные Медиа</a></li>
+                </ul>
+            </nav>
+            <button class="login">Авторизоваться</button>
+        </header>
+        <div class="explore">
+            <h1 id="how-it-work">Исследуйте красоту<br> Мира</h1>
+            <p><i>Получайте персональные рекомендации по странам, отелям, мероприятиям и т. д.</i></p>
+
+            <div class="input-text"><span>Чем бы Вы хотели заняться?</span>
+                <div class="start-planning">Планирование</div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="container">
+            <h2 id="plan-trip">3 ШАГА К ИДЕАЛЬНОЙ ПОЕЗДКЕ</h2>
+            <div class="steps">
+                <div>
+                    <div class="orange-icon bike">
+                        <img src="assets/img/bicycle.svg" alt="bicycle">
+                    </div>
+                    <p class="tell-us">Расскажите нам, что вы хотите</p>
+                </div>
+                <div>
+                    <div class="share">
+                        <div class="orange-icon">
+                            <img src="assets/img/calendar.svg" alt="calendar">
+
+                        </div>
+                        <p class="share-us">Поделитесь с нами предпочтительными датами </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="orange-icon plane">
+                        <img src="assets/img/plane.png" alt="plane" id="plane">
+                    </div>
+                    <p class="we-will">Мы дадим вам рекомендации</p>
+                </div>
+            </div>
+        </section>
+        <section class="container carousel">
+            <h2 class="h2-popular" id="popular-destinations">ПОПУЛЯРНЫЕ НАПРАВЛЕНИЯ</h2>
+            <div class="galery">
+                <div class="prevBtn"></div>
+                <div class="nextBtn"></div>
+                <div class="images">
+
+                    <div class="japan title first-img">
+                        <img src="assets/img/carousel2.jpg" class="picture" alt="Япония">
+                    </div>
+                    <div class="usa title second-img">
+                        <img src="assets/img/carousel3.jpg" class="picture" alt="США">
+                    </div>
+                    <div class="spain title third-img">
+                        <img src="assets/img/carousel1.jpg" class="picture" alt="Испания">
+                    </div>
+                    <div class="japan title fourth-img">
+                        <img src="assets/img/carousel2.jpg" class="picture" alt="Япония">
+                    </div>
+                    <div class="usa title fifth-img">
+                        <img src="assets/img/carousel3.jpg" class="picture" alt="США">
+                    </div>
+                    <div class="spain title sixth-img">
+                        <img src="assets/img/carousel1.jpg" class="picture" alt="Испания">
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <div class="dot dot1-full"></div>
+                <div class="dot dot2-full"></div>
+                <div class="dot dot3-full"></div>
+            </div>
+            <div class="galery-mobile" id="galery-mobile">
+                <div class="dot1 dot"></div>
+                <div class="dot2 dot"></div>
+                <div class="dot3 dot"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="images-mobile">
+                    <div class="spain-mobile title-mobile">
+                        <img src="assets/img/spain-mobile.jpg" id="spain" alt="spain">
+                    </div>
+                    <div class="japan-mobile title-mobile">
+                        <img src="assets/img/japan-mobile.jpg" id="japan" alt="Japan">
+                    </div>
+                    <div class="usa-mobile title-mobile">
+                        <img src="assets/img/usa-mobile.jpg" alt="usa" id="usa">
+                    </div>
+                </div>
+            </div>
+            <button class="more">Найти</button>
+        </section>
+    </main>
+    <footer class="container">
+        <section>
+            <h2 id="travel-stories">ИСТОРИИ ПУТЕШЕСТВИЙ</h2>
+            <div class="last">
+                <article class="stories">
+                    <div class="story">
+                        <img src="assets/img/photo-1.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>10 фотографий привлекательного Таиланда</h3>
+                            <p> Мало просто прилететь в Таиланд, выпить Сингхи или Чанги, получить массаж и
+                                непристойное предложение от массажистки, мало искупаться в чистом и не чистом
+                                море , нужны и впечатления! Иначе, что вы будете рассказывать своим друзьям, ну
+                                не о пиве же с полумертвым омаром. Берите лодку и на острова!</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo-2.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Национальный парк Каньонлендс, Юта</h3>
+                            <p>Обширная территория расположена в междуречье Грин-Ривер и Колорадо юго-западнее
+                                города Моаб. Здесь множество ущелий, гор и речных долин, которые являются частью
+                                пустынного ландшафта, в том числе система каньонов Мейз, скальные башни Нидлз,
+                                зелёные районы Айленд-оф-зе-Скай и другие уникальные природные объекты.</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo-3.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Я оставил свое сердце в горах!</h3>
+                            <p>Эверест имеет форму трёхгранной пирамиды, южный склон более крутой. На южном
+                                склоне и рёбрах снег и фирн не удерживаются, вследствие чего они обнажены.
+                                Высота Северо-восточного плеча — 8393 м. Высота от подножия до вершины — около
+                                3550 м. Вершина состоит в основном из осадочных отложений.</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo-4.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Самое длинное путешествие в моей жизни!</h3>
+                            <p>Один из старейших национальных парков США, расположен в штате Аризона. На
+                                территории парка расположен Большой каньон реки Колорадо, одно из признанных
+                                природных чудес света. Площадь парка — 4927 км². Большой каньон — один из самых
+                                необычных геологических объектов нашей планеты. В нём можно обнаружить следы
+                                четырёх геологических эр Земли, разнообразие скал и пещер...</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <button class="more">Больше</button>
+                </article>
+                <article class="stories-mobile">
+                    <div class="story">
+                        <img src="assets/img/photo1-mobile.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>10 фотографий привлекательного Таиланда</h3>
+                            <p> Мало просто прилететь в Таиланд, выпить Сингхи или Чанги, получить массаж и
+                                непристойное предложение от массажистки, мало искупаться в чистом и не чистом
+                                море , нужны и впечатления! Иначе, что вы будете рассказывать своим друзьям, ну
+                                не о пиве же с полумертвым омаром. Берите лодку и на острова!</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo2-mobile.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Национальный парк Каньонлендс, Юта</h3>
+                            <p> Обширная территория расположена в междуречье Грин-Ривер и Колорадо юго-западнее
+                                города Моаб. Здесь множество ущелий, гор и речных долин, которые являются частью
+                                пустынного ландшафта, в том числе система каньонов Мейз, скальные башни Нидлз,
+                                зелёные районы Айленд-оф-зе-Скай и другие уникальные природные объекты.</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo3-mobile.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Я оставил свое сердце в горах!</h3>
+                            <p> Эверест имеет форму трёхгранной пирамиды, южный склон более крутой. На южном
+                                склоне и рёбрах снег и фирн не удерживаются, вследствие чего они обнажены.
+                                Высота Северо-восточного плеча — 8393 м. Высота от подножия до вершины — около
+                                3550 м. Вершина состоит в основном из осадочных отложений.</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="story">
+                        <img src="assets/img/photo4-mobile.jpg" alt="waterfall" class="img">
+                        <div>
+                            <h3>Самое длинное путешествие в моей жизни!</h3>
+                            <p>Один из старейших национальных парков США, расположен в штате Аризона. На
+                                территории парка расположен Большой каньон реки Колорадо, одно из признанных
+                                природных чудес света. Площадь парка — 4927 км². Большой каньон — один из самых
+                                необычных геологических объектов нашей планеты. В нём можно обнаружить следы
+                                четырёх геологических эр Земли, разнообразие скал и пещер...</p>
+                            <a href="#readMore">Читать далее</a>
+                        </div>
+                    </div>
+                    <button class="more">Больше</button>
+                </article>
+                <div class="footer-nav" id="social-media">
+                    <div class="empty-div"></div>
+                    <span>Все права защищены © Travel Portal</span>
+                    <nav class="social">
+                        <ul>
+                            <li><a href="https://github.com/sasharozhkov" target="_blank"><img
+                                        src="assets/img/instagram.svg" alt="instagram"></a></li>
+                            <li><a href="https://www.instagram.com/alexrozhkovcom" target="_blank"><img
+                                        src="assets/img/youtube.svg" alt="youtube"></a></li>
+                            <li><a href="https://twitter.com/alexrozhkovcom" target="_blank"><img
+                                        src="assets/img/twitter.svg" alt="twitter"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
