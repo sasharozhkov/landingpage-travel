@@ -174,7 +174,7 @@ body {
 }
 .register-form label {
   margin-bottom: 5px;
-  font-family: "Aleo";
+  font-family: "Arial" serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -182,7 +182,7 @@ body {
 }
 .sing-in-btn {
   margin-top: 5px;
-  font-family: "Red Hat Text";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -198,7 +198,7 @@ body {
 }
 .forgot-pass {
   margin-top: 11px;
-  font-family: "Aleo";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -218,7 +218,7 @@ body {
 }
 .register-ask {
   margin-top: 22px;
-  font-family: "Aleo";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -230,7 +230,7 @@ body {
   text-decoration-line: underline;
   color: #0d606f;
   cursor: pointer;
-  font-family: "Aleo";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -239,7 +239,7 @@ body {
 }
 
 p {
-  font-family: "Aleo", serif;
+  font-family: "Arial" serif;
   font-weight: 400;
 }
 .container {
@@ -266,7 +266,7 @@ h2 {
   margin-bottom: 40px;
 }
 h3 {
-  font-family: "Aleo", serif;
+  font-family: "Arial", serif;
   font-size: 35px;
   font-weight: 400;
   color: #0d606f;
@@ -295,7 +295,7 @@ header {
   margin-right: 3px;
 }
 .logo-label {
-  font-family: "Magra", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 32px;
   font-weight: 600;
   color: white;
@@ -319,7 +319,7 @@ header {
 }
 nav li {
   white-space: nowrap;
-  font-family: "Red Hat Text";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -355,7 +355,7 @@ header ul a:hover:after {
 }
 .login {
   background-color: #0d606f;
-  font-family: "Red Hat Text";
+  font-family: "Arial" serif;
   font-style: normal;
   text-decoration: none;
   font-size: 16px;
@@ -388,7 +388,7 @@ header ul a:hover:after {
 h1 {
   font-size: 80px;
   color: white;
-  font-family: "Aleo", serif;
+  font-family: "Arial", serif;
 }
 form {
   position: relative;
@@ -400,7 +400,7 @@ form {
 input[type="text"] {
   background-color: rgba(255, 255, 255, 0.7);
   border: none;
-  font-family: "Aleo", serif;
+  font-family: "Arial", serif;
   font-size: 24px;
   color: #f2785c;
   font-weight: 400;
@@ -426,7 +426,7 @@ input[type="text"] {
 }
 .input-text span {
   margin: 20px;
-  font-family: "Aleo", serif;
+  font-family: "Arial", serif;
   font-size: 24px;
   font-style: italic;
   color: #f2785c;
@@ -436,7 +436,7 @@ input[type="text"] {
 .start-planning {
   display: inline-block;
   padding: 14px 32px 12px 32px;
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "Arial", serif;
   font-size: 24px;
   font-weight: 500;
   color: white;
@@ -644,7 +644,7 @@ input[type="radio"] {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
-  font-family: "Red Hat Text", sans-serif;
+  font-family: "Arial", serif;
   font-weight: 500;
   font-size: 24px;
   color: white;
@@ -691,7 +691,7 @@ article {
 }
 .story a {
   text-decoration: underline;
-  font-family: "Aleo";
+  font-family: "Arial" serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -712,7 +712,7 @@ article {
   width: 1057px;
 }
 .footer-nav span {
-  font-family: "Red Hat Text";
+  font-family: "Arial";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
